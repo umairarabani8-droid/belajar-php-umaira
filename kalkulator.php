@@ -9,10 +9,10 @@
     <h2>kalkulator penjumlahan</h2>
     <form action="hitung.php" method="POST">
         <label>Angka pertama:</label>
-        <input type="number" name="angka1" required><br><br>
+        <input type="number" name="nilai_a" required><br><br>
 
         <label>angka kedua:</label>
-        <input type="number" name="angka2" required><br><br>
+        <input type="number" name="nilai_b" required><br><br>
 
         <button type="submit">Tambahkan!</button>
     </form>

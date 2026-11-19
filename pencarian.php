@@ -14,7 +14,7 @@
 <hr>
 
 <?php
-    if(isset(GET['kata kunci'])) { 
+    if(isset($_GET['kata kunci'])) { 
         $cari = $_GET[kata_kunci];
         echo "<p>Manampilkan hasil pencarian untuk: <b>$cari</b></p>";
     }
